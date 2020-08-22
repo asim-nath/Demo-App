@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-container>
-    <v-text-field label="Search Name of Movies" v-model="name"></v-text-field>
+    <v-text-field label="Movie Name" v-model="name"></v-text-field>
     <v-btn primary @click="getData()">Search</v-btn>
     </v-container>
     <v-container>
@@ -14,7 +14,7 @@
   >
     <v-card-title>{{m.title}}</v-card-title>
     <v-card-text class="text--primary">
-      <div>{{m.original_language}}</div>
+      <div>{{m.release_date}}</div>
     </v-card-text>
   </v-card>
   </v-row>
