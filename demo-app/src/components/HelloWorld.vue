@@ -14,7 +14,7 @@
   >
     <v-card-title>{{m.title}}</v-card-title>
     <v-card-text class="text--primary">
-      <div>{{m.release_date}}</div>
+      <div>{{m.original_language}}</div>
     </v-card-text>
   </v-card>
   </v-row>
